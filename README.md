@@ -1,3 +1,6 @@
+<div align="center"><img src="https://www.brandbucket.com/sites/default/files/logo_uploads/334406/large_devmonks.png"></div>
+
+***
 # **Direcciones IPv4 e IPv6 públicas**
 
 Podrá indicar direcciones IPv4 o IPV6 públicas usando a elección el consumo de alguna API de los siguientes proveedore: . 
@@ -21,20 +24,20 @@ Obtendrá la información en formatos JSON, la tabulará y agregará colores par
 
 Por hacer "To do":
 * ✅ Documentación.
-- [ ] PMenú inicio.
+*  [ ] PMenú inicio.
 
-- [ ] API 1
-    - [ ] IPv4
-    - [ ] IPv6
+* [ ] API 1
+    * [ ] IPv4
+    * [ ] IPv6
 
-- [ ] API 2
-    - [ ] IPv4
-    - [ ] IPv6
+* [ ] API 2
+    * [ ] IPv4
+    * [ ] IPv6
 
-- [ ] Testear
-    - [ ] IPI 1
-    - [ ] IPI 2
+* [ ] Testear
+    * [ ] IPI 1
+    * [ ] IPI 2
 
-- [ ] Video
-    - [ ] IPv4 & IPv6 - API 1
-    - [ ] IPv6 & IPv6 - API 2
+* [ ] Video
+    * [ ] IPv4 & IPv6 - API 1
+    * [ ] IPv6 & IPv6 - API 2
