@@ -1,0 +1,6 @@
+#Nin's workspace ignore:
+__pycache__/*
+apienv/*
+*.swp
+########################
+

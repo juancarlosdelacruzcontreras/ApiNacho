@@ -1,4 +1,5 @@
-#Dianaromero 19/01/2021#
+#Dianaromero 19/01/2021
+import model as nin
 ciclo = True
 
 while ciclo == True:
@@ -10,10 +11,12 @@ while ciclo == True:
                 ip = int(input("Seleccionar tipo de dirección: \n 1.- IPv4 \n 2.- IPv6"))
 
                 if ip == 1:
-                    print("ipstack con IPv4")
+                    response = nin.ipstack_info()
+                    print(response.json())
                     
                 elif ip == 2:
-                    print("ipstack con IPv6")
+                    response = nin.ipstack_info()
+                    print(response.json())
 
                 else:
                     print("Ingresa un número que aparezca en la lista")
