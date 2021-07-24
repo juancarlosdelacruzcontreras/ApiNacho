@@ -24,19 +24,19 @@ Obtendrá la información en formatos JSON, la tabulará y agregará colores par
 
 Por hacer "To do":
 * ✅ Documentación.
-*  [ ] PMenú inicio.
+*  ✅ PMenú inicio.
 
-* [ ] API 1
-    * [ ] IPv4
-    * [ ] IPv6
+* ✅ API 1
+    * ✅ IPv4
+    * ✅ IPv6
 
-* [ ] API 2
-    * [ ] IPv4
-    * [ ] IPv6
+* ✅ API 2
+    * ✅ IPv4
+    * ✅ IPv6
 
-* [ ] Testear
-    * [ ] IPI 1
-    * [ ] IPI 2
+* ✅ Testear
+    * ✅ IPI 1
+    * ✅ IPI 2
 
 * [ ] Video
     * [ ] IPv4 & IPv6 - API 1
