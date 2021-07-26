@@ -1,5 +1,17 @@
 <div align="center"><img src="https://www.brandbucket.com/sites/default/files/logo_uploads/334406/large_devmonks.png"></div>
 
+<div align="center">
+  
+  <a href="https://pypi.org/project/httpx/">
+  <img src="https://img.shields.io/github/pipenv/locked/dependency-version/juancarlosdelacruzcontreras/ApiNacho/httpx/main?color=orange">
+  </a>
+  
+  <a href="https://pypi.org/project/requests/">
+  <img src="https://img.shields.io/github/pipenv/locked/dependency-version/juancarlosdelacruzcontreras/ApiNacho/requests/main?color=orange">
+  </a>
+  
+</div>
+
 ***
 # **Direcciones IPv4 e IPv6 públicas**
 
