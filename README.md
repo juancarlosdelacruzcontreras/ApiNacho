@@ -12,6 +12,18 @@
   
 </div>
 
+<div align="center">
+  
+  <a href="https://github.com/juancarlosdelacruzcontreras/ApiNacho/issues">
+  <img src="https://img.shields.io/github/issues/juancarlosdelacruzcontreras/ApiNacho">
+  </a>
+  
+  <a href="https://github.com/juancarlosdelacruzcontreras/ApiNacho/pulls">
+  <img src="https://img.shields.io/github/issues-pr-closed/juancarlosdelacruzcontreras/ApiNacho">
+  </a>
+  
+</div>
+
 ***
 # **Direcciones IPv4 e IPv6 públicas**
 
