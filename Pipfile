@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 httpx = "*"
 requests = "*"
+progress = "*"
+tabulate = "*"
+colorama = "*"
 
 [dev-packages]
 
