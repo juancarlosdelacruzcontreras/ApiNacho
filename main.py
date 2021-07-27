@@ -35,13 +35,19 @@ while ciclo == True:
                     print(" ")
                     bar2 = ChargingBar('Obteniendo informacion:', max=100)
                     for num in range(100):
-                        time.sleep(random.uniform(0, 0.2))
+                        time.sleep(random.uniform(0, 0.001))
                         bar2.next()
                     bar2.finish()
                     print(" ")
                     
                     print(Fore.GREEN + "Tabla de resultados desde IPSTACK")
-                    print(Style.RESET_ALL + Fore.CYAN + tabulate(mylist, tablefmt='plain'))
+                    extra=(mylist.pop(-1))
+                    localizacion=(extra)
+                    location=(localizacion[1].items())
+                    print(Style.RESET_ALL + Fore.CYAN + tabulate(mylist, tablefmt='fancy_grid'))
+                    print(" ")
+                    print(Fore.GREEN + "Localizacion")
+                    print(Style.RESET_ALL + Fore.CYAN + tabulate(location, tablefmt='fancy_grid'))
                     print(" ")
 
                     
@@ -53,13 +59,19 @@ while ciclo == True:
                     print(" ")
                     bar2 = ChargingBar('Obteniendo informacion:', max=100)
                     for num in range(100):
-                        time.sleep(random.uniform(0, 0.2))
+                        time.sleep(random.uniform(0, 0.001))
                         bar2.next()
                     bar2.finish()
                     print(" ")
                     
                     print(Fore.GREEN + "Tabla de resultados desde IPSTACK")
-                    print(Style.RESET_ALL + Fore.CYAN + tabulate(mylist, tablefmt='plain'))
+                    extra=(mylist.pop(-1))
+                    localizacion=(extra)
+                    location=(localizacion[1].items())
+                    print(Style.RESET_ALL + Fore.CYAN + tabulate(mylist, tablefmt='fancy_grid'))
+                    print(" ")
+                    print(Fore.GREEN + "Localizacion")
+                    print(Style.RESET_ALL + Fore.CYAN + tabulate(location, tablefmt='fancy_grid'))
                     print(" ")
 
                 else:
@@ -91,13 +103,19 @@ while ciclo == True:
                     print(" ")
                     bar2 = ChargingBar('Obteniendo informacion:', max=100)
                     for num in range(100):
-                        time.sleep(random.uniform(0, 0.2))
+                        time.sleep(random.uniform(0, 0.001))
                         bar2.next()
                     bar2.finish()
                     print(" ")
                     
                     print(Fore.GREEN + "Tabla de resultados desde IPAPI")
-                    print(Style.RESET_ALL + Fore.CYAN + tabulate(mylist, tablefmt='plain'))
+                    extra=(mylist.pop(-1))
+                    localizacion=(extra)
+                    location=(localizacion[1].items())
+                    print(Style.RESET_ALL + Fore.CYAN + tabulate(mylist, tablefmt='fancy_grid'))
+                    print(" ")
+                    print(Fore.GREEN + "Localizacion")
+                    print(Style.RESET_ALL + Fore.CYAN + tabulate(location, tablefmt='fancy_grid'))
                     print(" ")
                     
                 elif op == 2:
@@ -108,13 +126,19 @@ while ciclo == True:
                     print(" ")
                     bar2 = ChargingBar('Obteniendo informacion:', max=100)
                     for num in range(100):
-                        time.sleep(random.uniform(0, 0.2))
+                        time.sleep(random.uniform(0, 0.001))
                         bar2.next()
                     bar2.finish()
                     print(" ")
                     
                     print(Fore.GREEN + "Tabla de resultados desde IPAPI")
-                    print(Style.RESET_ALL + Fore.CYAN + tabulate(mylist, tablefmt='plain'))
+                    extra=(mylist.pop(-1))
+                    localizacion=(extra)
+                    location=(localizacion[1].items())
+                    print(Style.RESET_ALL + Fore.CYAN + tabulate(mylist, tablefmt='fancy_grid'))
+                    print(" ")
+                    print(Fore.GREEN + "Localizacion")
+                    print(Style.RESET_ALL + Fore.CYAN + tabulate(location, tablefmt='fancy_grid'))
                     print(" ")
 
                 else:
