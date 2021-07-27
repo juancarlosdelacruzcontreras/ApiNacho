@@ -10,6 +10,17 @@
   <img src="https://img.shields.io/github/pipenv/locked/dependency-version/juancarlosdelacruzcontreras/ApiNacho/requests/main?color=orange">
   </a>
   
+  <a href="https://pypi.org/project/tabulate/">
+  <img src="https://img.shields.io/github/pipenv/locked/dependency-version/juancarlosdelacruzcontreras/ApiNacho/tabulate/main?color=orange">
+  </a>
+  
+  <a href="https://pypi.org/project/progress/">
+  <img src="https://img.shields.io/github/pipenv/locked/dependency-version/juancarlosdelacruzcontreras/ApiNacho/progress/main?color=orange">
+  </a>
+  
+  <a href="https://pypi.org/project/colorama/">
+  <img src="https://img.shields.io/github/pipenv/locked/dependency-version/juancarlosdelacruzcontreras/ApiNacho/colorama/main?color=orange">
+  </a>
 </div>
 
 <div align="center">
