@@ -36,10 +36,7 @@ while True:
                     if op == 1:
                         os.system("cls" if os.name == "nt" else "clear")
                         ciclo = False
-                        response = nin.ipstack_info()
-                        items = response.items()
-                        mylist = list(items)
-
+                        response = list(nin.ipstack_info().items())
                         print(" ")
                         bar2 = ChargingBar("Obteniendo informacion:", max=100)
                         for num in range(100):
@@ -50,28 +47,28 @@ while True:
 
                         print(Fore.GREEN + "Tabla de resultados desde IPSTACK")
 
-                        mylist.append(("capital", mylist[12][1]["capital"]))
-                        mylist.append(
+                        response.append(
+                            ("capital", response[12][1]["capital"])
+                        )
+                        response.append(
                             (
                                 "language",
-                                mylist[12][1]["languages"][0]["native"],
+                                response[12][1]["languages"][0]["native"],
                             )
                         )
-                        mylist.pop(12)
+                        response.pop(12)
 
                         print(
                             Style.RESET_ALL
                             + Fore.CYAN
-                            + tabulate(mylist, tablefmt="fancy_grid")
+                            + tabulate(response, tablefmt="fancy_grid")
                         )
                         print("")
 
                     elif op == 2:
                         os.system("cls" if os.name == "nt" else "clear")
                         ciclo = False
-                        response = nin.ipstack_info()
-                        items = response.items()
-                        mylist = list(items)
+                        response = list(nin.ipstack_info().items())
 
                         print(" ")
                         bar2 = ChargingBar("Obteniendo informacion:", max=100)
@@ -83,19 +80,21 @@ while True:
 
                         print(Fore.GREEN + "Tabla de resultados desde IPSTACK")
 
-                        mylist.append(("capital", mylist[12][1]["capital"]))
-                        mylist.append(
+                        response.append(
+                            ("capital", response[12][1]["capital"])
+                        )
+                        response.append(
                             (
                                 "language",
-                                mylist[12][1]["languages"][0]["native"],
+                                response[12][1]["languages"][0]["native"],
                             )
                         )
-                        mylist.pop(12)
+                        response.pop(12)
 
                         print(
                             Style.RESET_ALL
                             + Fore.CYAN
-                            + tabulate(mylist, tablefmt="fancy_grid")
+                            + tabulate(response, tablefmt="fancy_grid")
                         )
                         print(" ")
 
@@ -131,9 +130,7 @@ while True:
                     if op == 1:
                         os.system("cls" if os.name == "nt" else "clear")
                         ciclo = False
-                        response = dani.ipapi_info()
-                        items = response.items()
-                        mylist = list(items)
+                        response = list(nin.ipstack_info().items())
 
                         print(" ")
                         bar2 = ChargingBar("Obteniendo informacion:", max=100)
@@ -145,28 +142,28 @@ while True:
 
                         print(Fore.GREEN + "Tabla de resultados desde IPAPI")
 
-                        mylist.append(("capital", mylist[12][1]["capital"]))
-                        mylist.append(
+                        response.append(
+                            ("capital", response[12][1]["capital"])
+                        )
+                        response.append(
                             (
                                 "language",
-                                mylist[12][1]["languages"][0]["native"],
+                                response[12][1]["languages"][0]["native"],
                             )
                         )
-                        mylist.pop(12)
+                        response.pop(12)
 
                         print(
                             Style.RESET_ALL
                             + Fore.CYAN
-                            + tabulate(mylist, tablefmt="fancy_grid")
+                            + tabulate(response, tablefmt="fancy_grid")
                         )
                         print(" ")
 
                     elif op == 2:
                         os.system("cls" if os.name == "nt" else "clear")
                         ciclo = False
-                        response = dani.ipapi_info()
-                        items = response.items()
-                        mylist = list(items)
+                        response = list(nin.ipstack_info().items())
 
                         print(" ")
                         bar2 = ChargingBar("Obteniendo informacion:", max=100)
@@ -178,19 +175,21 @@ while True:
 
                         print(Fore.GREEN + "Tabla de resultados desde IPAPI")
 
-                        mylist.append(("capital", mylist[12][1]["capital"]))
-                        mylist.append(
+                        response.append(
+                            ("capital", response[12][1]["capital"])
+                        )
+                        response.append(
                             (
                                 "language",
-                                mylist[12][1]["languages"][0]["native"],
+                                response[12][1]["languages"][0]["native"],
                             )
                         )
-                        mylist.pop(12)
+                        response.pop(12)
 
                         print(
                             Style.RESET_ALL
                             + Fore.CYAN
-                            + tabulate(mylist, tablefmt="fancy_grid")
+                            + tabulate(response, tablefmt="fancy_grid")
                         )
                         print(" ")
 
