@@ -56,6 +56,10 @@ Obtendrá la información en formatos JSON, la tabulará y agregará colores par
   * 2 – API 2 – Ipv4 – Ipv6.
   * 1 – Administrar GitHub, mejorar la presentación de la aplicación (tabulares y colores) – generación de video.
 
+## Video del uso de la applicación.
+
+[![Alt text](https://img.youtube.com/vi/S1o8wkBgEeU/0.jpg)](https://www.youtube.com/watch?v=S1o8wkBgEeU)
+
 
 Por hacer "To do":
 * ✅ Documentación.
@@ -73,6 +77,6 @@ Por hacer "To do":
     * ✅ IPI 1
     * ✅ IPI 2
 
-* [ ] Video
-    * [ ] IPv4 & IPv6 - API 1
-    * [ ] IPv6 & IPv6 - API 2
+* ✅ Video
+    * ✅ IPv4 & IPv6 - API 1
+    * ✅ IPv6 & IPv6 - API 2
