@@ -130,7 +130,7 @@ while True:
                     if op == 1:
                         os.system("cls" if os.name == "nt" else "clear")
                         ciclo = False
-                        response = list(nin.ipstack_info().items())
+                        response = list(dani.ipapi_info().items())
 
                         print(" ")
                         bar2 = ChargingBar("Obteniendo informacion:", max=100)
@@ -142,16 +142,6 @@ while True:
 
                         print(Fore.GREEN + "Tabla de resultados desde IPAPI")
 
-                        response.append(
-                            ("capital", response[12][1]["capital"])
-                        )
-                        response.append(
-                            (
-                                "language",
-                                response[12][1]["languages"][0]["native"],
-                            )
-                        )
-                        response.pop(12)
 
                         print(
                             Style.RESET_ALL
@@ -163,7 +153,7 @@ while True:
                     elif op == 2:
                         os.system("cls" if os.name == "nt" else "clear")
                         ciclo = False
-                        response = list(nin.ipstack_info().items())
+                        response = list(dani.ipapi_info().items())
 
                         print(" ")
                         bar2 = ChargingBar("Obteniendo informacion:", max=100)
@@ -175,16 +165,6 @@ while True:
 
                         print(Fore.GREEN + "Tabla de resultados desde IPAPI")
 
-                        response.append(
-                            ("capital", response[12][1]["capital"])
-                        )
-                        response.append(
-                            (
-                                "language",
-                                response[12][1]["languages"][0]["native"],
-                            )
-                        )
-                        response.pop(12)
 
                         print(
                             Style.RESET_ALL

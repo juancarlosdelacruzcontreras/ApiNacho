@@ -4,8 +4,7 @@ import requests
 import os
 import ipaddress
 
-ENDPOINT = "http://api.ipapi.com/"
-APIKEY = "746b05ad74bb7f91d7ff8f52262776ab"
+ENDPOINT = "https://ipapi.co/"
 
 c = requests.get(ENDPOINT)
 
@@ -26,7 +25,7 @@ if c.status_code == 200:
             except ValueError:
                 print(f"La {ip} no parece ser una IP valida\n Vuelva a intentarlo.")
                 
-        uri = ENDPOINT + ip + "?access_key=" + APIKEY
+        uri = ENDPOINT + ip + "/json"
         response = requests.get(uri)
         response_json = response.json()
         
