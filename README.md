@@ -66,13 +66,19 @@ Clonar el proyecto
 
 ## Instalar entorno virtual Pipenv.
 
+Crear entorno virtual ----> (venv), es el nombre del entorno creado:
+
+```bash
+  python -m venv venv 
+```
+
 Instalar el paquete pipenv:
 
 ```bash
   pip install pipenv
 ```
 
-Inicializar un nuevo entorno virtual de python:
+Inicializar un nuevo entorno virtual:
 
 ```bash
   pipenv shell
@@ -90,6 +96,14 @@ O instalar dependencias con las versiones exactas usadas durante el desarrollo d
   pipenv install --ignore-pipfile
 ```
 
+Correr la aplicación desde el archivo main.py:
+
+```bash
+  python main.py
+```
+
+## Otras opciones para usar Pipenv.
+
 Ver dependencias instaladas en el entorno virtual:
 
 ```bash
@@ -100,6 +114,12 @@ Ver el árbol de las dependencias instaladas en el entorno virtual:
 
 ```bash
   pipenv graph
+```
+
+Ver entorno virtual creados:
+
+```bash
+  pipenv --venv
 ```
 
 Eliminar entorno virtual:
