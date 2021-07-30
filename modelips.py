@@ -15,13 +15,13 @@ def ipstack_info() -> dict:
 
     while True:
         try:
-            ip = input("Ingresa la dirección IP: ")
+            ip = input("Ingresa la dirección IP Pública: ")
             ipaddress.ip_address(ip)  # !https://stackoverflow.com/a/10782565
             os.system("cls" if os.name == "nt" else "clear")
             break
         except ValueError:
             print(
-                f"La ip {ip} no parece ser una IP válida.\nPor favor vuelve a intentarlo."
+                f"La ip {ip} no parece ser una IP Pública válida.\nPor favor vuelve a intentarlo."
             )
 
     uri = (
