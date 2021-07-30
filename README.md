@@ -56,6 +56,59 @@ Obtendrá la información en formatos JSON, la tabulará y agregará colores par
   * 2 – API 2 – Ipv4 – Ipv6.
   * 1 – Administrar GitHub, mejorar la presentación de la aplicación (tabulares y colores) – generación de video.
 
+## Ejecutar localmente.
+
+Clonar el proyecto
+
+```bash
+  git clone https://github.com/juancarlosdelacruzcontreras/ApiNacho
+```
+
+## Instalar entorno virtual Pipenv.
+
+Instalar el paquete pipenv:
+
+```bash
+  pip install pipenv
+```
+
+Inicializar un nuevo entorno virtual de python:
+
+```bash
+  pipenv shell
+```
+
+Instalar dependencias desde el archivo Pipfile:
+
+```bash
+  pipenv install
+```
+
+O instalar dependencias con las versiones exactas usadas durante el desarrollo desde el archivo Pipfile.lock:
+
+```bash
+  pipenv install --ignore-pipfile
+```
+
+Ver dependencias instaladas en el entorno virtual:
+
+```bash
+  pipenv lock -r
+```
+
+Ver el árbol de las dependencias instaladas en el entorno virtual:
+
+```bash
+  pipenv graph
+```
+
+Eliminar entorno virtual:
+
+```bash
+  pipenv --rm
+```
+
+
 ## Video del uso de la applicación.
 
 [![Alt text](https://img.youtube.com/vi/S1o8wkBgEeU/0.jpg)](https://www.youtube.com/watch?v=S1o8wkBgEeU)
