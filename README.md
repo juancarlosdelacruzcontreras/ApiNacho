@@ -64,12 +64,19 @@ Clonar el proyecto
   git clone https://github.com/juancarlosdelacruzcontreras/ApiNacho
 ```
 
-## Instalar entorno virtual Pipenv.
+## 🛠 Instalar entorno virtual Pipenv.
 
 Crear entorno virtual ----> (venv), es el nombre del entorno creado:
 
 ```bash
   python -m venv venv 
+```
+
+Activar el entorno virtual::
+
+```bash
+  cd venv/Scripts/
+  activate
 ```
 
 Instalar el paquete pipenv:
@@ -78,19 +85,13 @@ Instalar el paquete pipenv:
   pip install pipenv
 ```
 
-Inicializar un nuevo entorno virtual:
-
-```bash
-  pipenv shell
-```
-
 Instalar dependencias desde el archivo Pipfile:
 
 ```bash
   pipenv install
 ```
 
-O instalar dependencias con las versiones exactas usadas durante el desarrollo desde el archivo Pipfile.lock:
+O instalar dependencias con las versiones exactas usadas durante el desarrollo desde el archivo Pipfile.lock `(opcional)`:
 
 ```bash
   pipenv install --ignore-pipfile
@@ -99,6 +100,7 @@ O instalar dependencias con las versiones exactas usadas durante el desarrollo d
 Correr la aplicación desde el archivo main.py:
 
 ```bash
+  cd ../..
   python main.py
 ```
 
@@ -129,7 +131,7 @@ Eliminar entorno virtual:
 ```
 
 
-## Video del uso de la applicación.
+## Video del uso de la aplicación.
 
 [![Alt text](https://img.youtube.com/vi/S1o8wkBgEeU/0.jpg)](https://www.youtube.com/watch?v=S1o8wkBgEeU)
 
