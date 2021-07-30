@@ -18,12 +18,12 @@ if c.status_code == 200:
         
         while True:
             try:
-                ip = input("Ingresa la direccion IP: ")
+                ip = input("Ingresa la direccion IP Pública: ")
                 ipaddress.ip_address(ip)
                 os.system("cls" if os.name == "nt" else "clear")
                 break
             except ValueError:
-                print(f"La {ip} no parece ser una IP valida\n Vuelva a intentarlo.")
+                print(f"La dirección {ip} no parece ser una IP Pública válida\n Vuelva a intentarlo.")
                 
         uri = ENDPOINT + ip + "/json"
         response = requests.get(uri)

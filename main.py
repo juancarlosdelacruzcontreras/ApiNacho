@@ -38,33 +38,42 @@ while True:
                         ciclo = False
                         response = list(nin.ipstack_info().items())
                         print(" ")
-                        bar2 = ChargingBar("Obteniendo informacion:", max=100)
-                        for num in range(100):
-                            time.sleep(random.uniform(0, 0.001))
-                            bar2.next()
-                        bar2.finish()
-                        print(" ")
-
-                        print(Fore.GREEN + "Tabla de resultados desde IPSTACK")
-
-                        response.append(
-                            ("capital", response[12][1]["capital"])
-                        )
-                        response.append(
-                            (
-                                "language",
-                                response[12][1]["languages"][0]["native"],
+                        if response[1][1]:
+                            bar2 = ChargingBar(
+                                "Obteniendo informacion:", max=100
                             )
-                        )
-                        response.pop(12)
+                            for num in range(100):
+                                time.sleep(random.uniform(0, 0.001))
+                                bar2.next()
+                            bar2.finish()
+                            print(" ")
 
-                        print(
-                            Style.RESET_ALL
-                            + Fore.CYAN
-                            + tabulate(response, tablefmt="fancy_grid")
-                        )
-                        print("")
+                            print(
+                                Fore.GREEN
+                                + "Tabla de resultados desde IPSTACK"
+                            )
 
+                            response.append(
+                                ("capital", response[12][1]["capital"])
+                            )
+                            response.append(
+                                (
+                                    "language",
+                                    response[12][1]["languages"][0]["native"],
+                                )
+                            )
+                            response.pop(12)
+
+                            print(
+                                Style.RESET_ALL
+                                + Fore.CYAN
+                                + tabulate(response, tablefmt="fancy_grid")
+                            )
+                            print("")
+                        else:
+                            print(
+                                f"{Fore.RED}Parece que la IP introducida es una IP Privada. Inténtelo de nuevo con una IP Pública.{Style.RESET_ALL}"
+                            )
                     elif op == 2:
                         os.system("cls" if os.name == "nt" else "clear")
                         ciclo = False
@@ -142,7 +151,6 @@ while True:
 
                         print(Fore.GREEN + "Tabla de resultados desde IPAPI")
 
-
                         print(
                             Style.RESET_ALL
                             + Fore.CYAN
@@ -164,7 +172,6 @@ while True:
                         print(" ")
 
                         print(Fore.GREEN + "Tabla de resultados desde IPAPI")
-
 
                         print(
                             Style.RESET_ALL
@@ -199,7 +206,7 @@ while True:
                 + Fore.CYAN
                 + "GRACIAS POR SU PREFERENCIA, NOS VEMOS PRONTO :P"
             )
-            print("################################################")
+            print("################################################" +Style.RESET_ALL)
             break
 
         else:
